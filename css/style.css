@@ -42,6 +42,10 @@ button {
     border: none;
     border-radius: 5px;
 }
+button:hover{
+    color: white;
+    background-color: #737272;
+}
 
 /* ------ stories section css */
 .stories-section {
@@ -132,8 +136,33 @@ button {
     font-weight: 700;
     color: white;
 }
+/*********************** Enroll section ************************/
+.enroll{
+    width: 1140px;
+    height: 300px;
+    border-radius: 5px;
+    background-image: url(../images/gradient1.png);
+    margin: 0 auto;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.enrol-desc{
+    color: rgba(7, 1, 19, 0.76);
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 55px;
+}
+.pHero{
+    background-color: bisque;
+}
+.pHero:hover{
+    color: white;
+    background-color:goldenrod;
+}
 
-/* footer part css */
+
+/* **********************
+footer part css ************************/
 .footer-part {
     display: flex;
     width: 1349px;
